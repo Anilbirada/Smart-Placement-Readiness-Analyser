@@ -6,8 +6,10 @@ __pycache__/
 venv/
 env/
 .env
+*.db
+*.db-journal
 backend/data/*.db
-backend/data/*.db-journal
+backend/backend/
 frontend/node_modules/
 frontend/dist/
 *.log
