@@ -1,0 +1,10 @@
+[project]
+name = "smart-placement-readiness-analyser"
+version = "1.0.0"
+description = "Smart Placement Readiness Analyser backend service"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["..", "."]
+testpaths = ["tests"]
+asyncio_default_fixture_loop_scope = "function"
